@@ -1,12 +1,10 @@
 package ru.hxastur.springcourse.dao;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Controller;
 import ru.hxastur.springcourse.model.Person;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
